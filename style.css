@@ -9,19 +9,28 @@ body {
 
 .weather-app {
   text-align: center;
-  background: #ffffff;
   padding: 20px;
   border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  box-shadow: 0 0 50px rgba(0,0,0,90);
 }
 
 input {
   padding: 10px;
   margin: 10px;
   width: 200px;
+  border: 2px solid black;
+  border-radius: 5px;
 }
 
-button {
+.btn {
   padding: 10px 20px;
   cursor: pointer;
+  border: 2px solid black;
+  border-radius: 25px;
+}
+
+.btn:hover{
+  background-color: grey;
+  color: whitesmoke;
+  border: none;
 }
